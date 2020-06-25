@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 
 :root {
-    --primary-color: #fff;
     --accent-color: #000;
     --border-width: 3px;
+    --ease-duration: .3s;
+    --primary-color: #fff;
     --shadow-coordinate: 6px 6px;
     --space: 12px;
     font-family: 'IBM Plex Mono', monospace;
@@ -37,7 +38,7 @@ body {
     cursor: pointer;
     position: relative;
     right: 0px;
-    transition-duration: 0.5s;
+    transition-duration: var(--ease-duration);
     transition-property: bottom, right, box-shadow;
     transition-timing-function: ease;
 }

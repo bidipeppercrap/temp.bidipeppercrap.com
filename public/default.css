@@ -36,11 +36,14 @@ body {
 .btn {
     bottom: 0px;
     cursor: pointer;
+    outline: none;
     position: relative;
     right: 0px;
     transition-duration: var(--ease-duration);
     transition-property: bottom, right, box-shadow;
     transition-timing-function: ease;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 .btn:hover {
     bottom: calc(var(--space) / 2 * -1);

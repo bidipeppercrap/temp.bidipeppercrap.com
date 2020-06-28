@@ -10,9 +10,12 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: "./public/index.html",
+      favicon: "./public/favicon.svg"
     }),
   ],
   output: {
     path: path.resolve(__dirname, "dist"),
+    library: "[name]",
+    libraryTarget: "var"
   },
 };

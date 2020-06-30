@@ -17,6 +17,14 @@ module.exports = merge(common, {
         test: /\.css$/,
         use: ['style-loader', "css-loader"],
       },
+      {
+	test: /\.woff2$/,
+	loader: 'file-loader',
+	options: {
+	  name: '[name].[ext]',
+	  outputPath: 'fonts/',
+	},
+      },
     ],
   },
 });

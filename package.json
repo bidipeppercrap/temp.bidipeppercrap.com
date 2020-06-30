@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/bidipeppercrap/temp.bidipeppercrap.com#readme",
   "dependencies": {
-    "plane.css": "^1.1.0"
+    "@ibm/plex": "^5.0.0",
+    "plane.css": "^1.2.2"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",

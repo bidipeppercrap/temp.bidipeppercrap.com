@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'IBM Plex Mono';
+    src: url('~@ibm/plex/IBM-Plex-Mono/fonts/split/woff2/IBMPlexMono-Regular-Latin1.woff2') format('woff2');
+}
+
 .message {
     display: grid;
     font-size: 24px;
